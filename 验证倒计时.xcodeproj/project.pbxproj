@@ -15,6 +15,7 @@
 		74A86D531E56EA490012D0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A86D511E56EA490012D0C9 /* LaunchScreen.storyboard */; };
 		74A86D5E1E56EA4A0012D0C9 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A86D5D1E56EA4A0012D0C9 /* _____Tests.m */; };
 		74A86D691E56EA4A0012D0C9 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A86D681E56EA4A0012D0C9 /* _____UITests.m */; };
+		74A86D781E56EAA40012D0C9 /* CountDownServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A86D771E56EAA40012D0C9 /* CountDownServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		74A86D641E56EA4A0012D0C9 /* 验证倒计时UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "验证倒计时UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A86D681E56EA4A0012D0C9 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		74A86D6A1E56EA4A0012D0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A86D761E56EAA40012D0C9 /* CountDownServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownServer.h; sourceTree = "<group>"; };
+		74A86D771E56EAA40012D0C9 /* CountDownServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				74A86D471E56EA490012D0C9 /* AppDelegate.m */,
 				74A86D491E56EA490012D0C9 /* ViewController.h */,
 				74A86D4A1E56EA490012D0C9 /* ViewController.m */,
+				74A86D761E56EAA40012D0C9 /* CountDownServer.h */,
+				74A86D771E56EAA40012D0C9 /* CountDownServer.m */,
 				74A86D4C1E56EA490012D0C9 /* Main.storyboard */,
 				74A86D4F1E56EA490012D0C9 /* Assets.xcassets */,
 				74A86D511E56EA490012D0C9 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A86D781E56EAA40012D0C9 /* CountDownServer.m in Sources */,
 				74A86D4B1E56EA490012D0C9 /* ViewController.m in Sources */,
 				74A86D481E56EA490012D0C9 /* AppDelegate.m in Sources */,
 				74A86D451E56EA490012D0C9 /* main.m in Sources */,
